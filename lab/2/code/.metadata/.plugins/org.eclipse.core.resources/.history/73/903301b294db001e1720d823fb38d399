@@ -1,0 +1,14 @@
+package jzombies;
+
+import repast.simphony.space.continuous.ContinuousSpace;
+import repast.simphony.space.grid.Grid;
+
+public class Shelter {
+	private ContinuousSpace<Object> space;
+	private Grid<Object> grid;
+	
+	public Shelter(ContinuousSpace<Object> space, Grid<Object> grid, int energy) {
+		this.space = space;
+		this.grid = grid;
+	}
+}

@@ -1,0 +1,39 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.10.0">
+  <name>A Data Set</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>multicameraTracking.Camera</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-346689314</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>id</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>id</id>
+        <className>multicameraTracking.Camera</className>
+        <methodName>getId</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>utility</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>utility</id>
+        <className>multicameraTracking.Camera</className>
+        <methodName>totalUtility</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

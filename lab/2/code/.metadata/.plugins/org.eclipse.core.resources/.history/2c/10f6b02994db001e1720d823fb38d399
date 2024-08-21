@@ -1,0 +1,7 @@
+package jzombies;
+
+import repast.simphony.dataLoader.ContextBuilder;
+
+public class Shelter implements ContextBuilder<T> {
+
+}

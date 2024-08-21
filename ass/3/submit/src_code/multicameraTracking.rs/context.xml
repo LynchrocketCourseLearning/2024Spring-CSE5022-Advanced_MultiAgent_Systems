@@ -1,0 +1,8 @@
+<context id="multicameraTracking" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
+  	<projection type="network" id="camerasNetwork" />
+    <projection type="network" id="pheromoneNetwork" />
+    <projection type="network" id="emergency_tracking" />
+    
+    <projection type="continuous space" id="space" />
+    <projection type="grid" id="grid" />
+</context>

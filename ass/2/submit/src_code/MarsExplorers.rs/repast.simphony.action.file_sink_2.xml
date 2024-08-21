@@ -1,0 +1,15 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.10.0">
+  <name>A File Sink</name>
+  <dataSet>A Data Set</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>Tick</string>
+    <string>Id</string>
+    <string>GroupId</string>
+    <string>SurvivalLevel</string>
+    <string>Utility</string>
+  </sourceIds>
+  <fileName>ModelOutput.csv</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

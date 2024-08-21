@@ -1,0 +1,63 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.10.0">
+  <name>A Data Set</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>marsExplorers.Explorer</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-479205193</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Tick</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Tick</id>
+        <className>marsExplorers.Explorer</className>
+        <methodName>getTick</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Id</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Id</id>
+        <className>marsExplorers.Explorer</className>
+        <methodName>getId</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>GroupId</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>GroupId</id>
+        <className>marsExplorers.Explorer</className>
+        <methodName>getGroupId</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>SurvivalLevel</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>SurvivalLevel</id>
+        <className>marsExplorers.Explorer</className>
+        <methodName>getSurvivalLevel</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Utility</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Utility</id>
+        <className>marsExplorers.Explorer</className>
+        <methodName>getUtility</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

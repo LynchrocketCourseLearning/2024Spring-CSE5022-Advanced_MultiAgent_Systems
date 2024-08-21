@@ -1,0 +1,6 @@
+#
+#Wed Jun 05 22:14:41 CST 2024
+incoming=tcp\://127.0.0.1\:5555
+outgoing=tcp\://127.0.0.1\:5556
+scenario=..\\multicameraTracking.rs
+working.directory=../
